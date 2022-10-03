@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url(headerbg.avif);
+    width: 100%;
+    height: 400px;
+   
+}
+.gettheapp{
+    margin-left: 140px;
+     padding-top: 30px;
+    font-size: 15px;
+    font-family: Okra,Helvetica,sans-serif;
+    color: blanchedalmond;
+    float: left;
+}
+.add-res{
+    margin-left: 700px;
+    padding-top: 30px;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Okra,Helvetica,sans-serif;
+    font-weight: lighter;
+    float: left;
+}
+.userlogo img{
+   margin-top: 15px;
+    margin-left:30px;
+    float: left;
+    border-radius: 50%;
+}
+.user{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.dropout{
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    opacity: 0.5;
+    color: blanchedalmond;
+    background: black;
+
+}
+.zomatoicon img{
+    float: left;
+    margin-left: 530px;
+    margin-top: 40px;
+}
+.discover{
+    color: blanchedalmond;
+    font-size: 35px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 40px;
+    font-family: Okra,Helvetica,sans-serif;
+}
+.search-loc{
+    border-radius: 10px;
+    float: left;
+    background: blanchedalmond;
+    width: 780px;
+    height: 60px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.location{
+   margin-top: 15px;
+    float: left;
+    height: 30px;
+    width: 250px;
+    border-right: rgba(139, 122, 122, 0.877) 1px solid;
+}
+.location img{
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+}
+#loc{
+    float: left;
+    margin-left: 8px;
+    height: 30px;
+    width: 190px;
+  font-size: 12px;
+  font-family: Okra,Helvetica,sans-serif;
+  border: none;
+}
+.search{
+    margin-top: 15px;
+   float: left;
+   height: 30px;
+   width: 500px ;
+  
+}
+.search img{
+    float: left;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+#searchbox{
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+    width: 440px;
+    border: none;
+    font-family: Okra,Helvetica,sans-serif;
+    word-spacing: 2px;
+}
+.food{
+    margin-top: 30px;
+    margin-left: 125px;
+    display: flex;
+}
+.options{
+    padding-left: 18px;
+}
+.options img{
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+}
+.optionwritten{
+   margin-left: 30px;
+   margin-top: 10px;
+   font-size: 20px;
+   font-family: Okra,Helvetica,sans-serif;
+   word-spacing: 2px;
+   font-weight: lighter;
+   color:rgba(0, 0, 0, 0.87);
+}
+.collections{
+    padding-left: 135px;
+    margin-top: 70px;
+    font-family: Okra,Helvetica,sans-serif;
+}
+#collections{
+    font-size: 35px;
+    font-weight: lighter;
+}
+#collection1{
+    float: left;
+margin-top: 10px;
+font-size: 18px;
+font-weight: lighter;
+}
+#collectionbnglr{
+    float: left;
+    margin-top: 10px;
+    margin-left: 160px;
+    text-decoration: none;
+}
+.collectionphotos{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 110px;
+    float: left;
+}
+.photos img{
+    margin: 10px;
+    height: 310px;
+    width: 260px;
+    border-radius: 10px;
+    
+}
+#head2{
+    float: left;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 36px;
+    font-family: Okra,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+.popularlocalities{
+   margin-top: 30px;
+   margin-left: 90px;
+   float: left;
+   width: 100%;
+   height: 500px;
+}
+
+.buttons{
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+    height: 60px;
+    width: 330px;
+    font-size: 21px;
+    border: none;
+    
+}
+.link1{
+    text-decoration: none;
+    color: black;
+    font-family: Okra,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+.getapp{
+    float: left;
+    margin-top: 80px;
+    margin-left: 300px;
+    height: 430px;
+    width: 800px;
+}
+.pic{
+    float: left;
+}
+.cont1{
+    float: left;
+    height: 430px;
+    width: 490px;
+}
+.txt{
+    font-size: 20px;
+}
+#text1{
+    
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Okra,Helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    word-spacing: 10px;
+}
+#txt2{
+    margin-left: 30px;
+    font-family: Okra,Helvetica,sans-serif;
+    word-spacing: 10px;
+}
+.email{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: Okra,Helvetica,sans-serif;
+    word-spacing: 10px;
+}
+#emailbox{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: gray;
+    border-width: 1px;
+}
+.email button{
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    background: #e63849;
+}
+#sharebuttonlink{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Okra,Helvetica,sans-serif;
+}
+#download{
+    color: gray;
+    font-weight: lighter;
+}
+.stores{
+    display: flex;
+    margin-top: 15px;
+}
+.stores img{
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+#playstore{
+    margin-left: 20px;
+}
+.explore{
+    margin-top: 1550px;
+    margin-left: 120px;
+    font-family: Okra,Helvetica,sans-serif;
+    font-weight: lighter;
+    word-spacing: 1px;
+}
+#explore{
+font-size: 28px;
+color: rgba(0, 0, 0, 0.822);
+}
+.head3{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.822);
+    padding-bottom: 40px;
+}
+.contents{
+    margin-top: 20px;
+    color: gray;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.toprest{
+    word-spacing: 6px;
+}
+.toprest a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: gray;
+}
+#a1{
+    margin-left: 100px;
+}
+#a2{
+    margin-left: 75px;
+}
+#s1{
+    margin-left: 60px;
+}
+#s2{
+    margin-left: 50px;
+}
+#s5{
+    margin-left: 100px;
+}
+#s3{
+    margin-left: 90px;
+}
+#s4{
+    margin-left: 88px;
+}
+.footer{
+    padding-left: 120px;
+    height: 400px;
+    width: 100%;
+   
+}
+#zomicon{
+    margin-top: 130px;
+}
+#country{
+    margin-left: 700px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+}
+#language{
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+}
+.cont4{
+    display: flex;
+    padding-top: 50px;
+    font-family: Okra,Helvetica,sans-serif;
+    font-weight: lighter;
+    word-spacing: 1px;
+}
+.company a{
+    text-decoration: none;
+    color: rgba(22, 15, 15, 0.664);
+}
+.forfoodies{
+    margin-left: 100px;
+}
+.forfoodies a{
+    text-decoration: none;
+    color: rgba(22, 15, 15, 0.664);
+}
+#copyright{
+    color: rgba(22, 15, 15, 0.664);
+    margin-right: 150px;
+}
